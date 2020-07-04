@@ -7,9 +7,42 @@
 //
 
 #include <iostream>
+#include "List.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    List<int> *list = new List<int>();
+    
+    list->insertStart(333);
+    
+    list->insertEnd(54);
+    list->insertEnd(62);
+    list->insertEnd(75);
+    list->insertEnd(89);
+    
+    list->display();
+    
+    list->deleteFirst();
+    
+    list->display();
+    
+    list->deleteEnd();
+    
+    list->display();
+    
+    list->insertStart(77);
+    
+    list->display();
+    
+    list->insertPosition(2, 89);
+    
+    list->display();
+    
+    list->deletePosition(2);
+    
+    list->display();
+    
+    delete list;
+    
     return 0;
 }

@@ -11,4 +11,31 @@
 
 #include <stdio.h>
 
+template <typename T>
+struct node
+{
+  T data;
+  node *next;
+};
+
+template <class T>
+class List
+{
+private:
+    node<T> *head, *tail;
+    
+public:
+    List();
+    void display();
+    void insertStart(T value);
+    void insertPosition(int pos, T value);
+    void insertEnd(T value);
+    void deleteFirst();
+    void deletePosition(int pos);
+    void deleteEnd();
+};
+
 #endif /* List_hpp */
+
+
+

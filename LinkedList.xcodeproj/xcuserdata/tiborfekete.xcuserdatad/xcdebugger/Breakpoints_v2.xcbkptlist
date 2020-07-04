@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5354018B-4959-40CD-96C7-CA73ABD90731"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D304753-D6C6-415A-96C5-E4EFD874E8CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinkedList/List.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "List()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8D304753-D6C6-415A-96C5-E4EFD874E8CC - 240bcb52d5e71145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;int&gt;::List()"
+                  moduleName = "LinkedList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiborfekete/Documents/C++/LinkedList/LinkedList/List.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "8D304753-D6C6-415A-96C5-E4EFD874E8CC - 240bcb52d5e71145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;int&gt;::List()"
+                  moduleName = "LinkedList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiborfekete/Documents/C++/LinkedList/LinkedList/List.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
